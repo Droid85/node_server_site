@@ -1,0 +1,22 @@
+{
+  "name": "node_server_site",
+  "version": "1.0.0",
+  "description": "simple site 3 pages on nodejs server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Droid85/node_server_site.git"
+  },
+  "author": "Andrii Ostapenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Droid85/node_server_site/issues"
+  },
+  "homepage": "https://github.com/Droid85/node_server_site#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
