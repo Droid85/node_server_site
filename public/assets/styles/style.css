@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    background-color: rgb(18, 230, 64);
+}
+
+.navigation_list {
+    display: flex;
+    margin: 0;
+}
+
+.navigation_item {
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+.navigation_item:last-child {
+    margin-right: 0;
+}
+
+.navigation_link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    display: inline-block;
+    padding: 10px;
+}
+
+.navigation_link:hover {
+    background-color: rgb(128, 255, 145);
+    color: rgb(28, 149, 255);
+}
+
+.main_photo {
+    width: 30%;
+    height: 50%;
+}
