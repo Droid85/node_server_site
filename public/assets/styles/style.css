@@ -3,6 +3,10 @@ html, body {
     padding: 0;
 }
 
+.main {
+    padding: 15px
+}
+
 .navigation {
     background-color: rgb(18, 230, 64);
 }
@@ -37,4 +41,27 @@ html, body {
 .main_photo {
     width: 30%;
     height: 50%;
+}
+
+.chat_input-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 50%;
+}
+
+.chat_input-text {
+    margin-bottom: 10px;
+}
+
+.chat_input-name {
+    margin-bottom: 10px;
+}
+
+.chat_send-btn {
+    cursor: pointer;
+}
+
+.chat-history-item {
+    list-style-type: none;
 }
