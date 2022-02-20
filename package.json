@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Droid85/node_server_site#readme",
   "dependencies": {
     "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "pug": "^3.0.2"
   }
 }

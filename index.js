@@ -3,12 +3,15 @@ const path = require('path');
 const fs = require('fs');
 const app = express();
 
-const PORT = process.env.PORT || 3001
+const PORT = process.env.PORT || 3002
+
+app.set('vews', './views');
+app.set('view engine', 'pug')
 
 app.use(express.static(path.join(__dirname, '/public')));
 
 app.get('/', (req, res) => {
-    res.sendFile(`${__dirname}/public/index.html`)
+    res.render('index', {title: 'Send message'})
 })
 
 app.get('/public/assets/about/', (req, res) => {

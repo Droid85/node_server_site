@@ -1,0 +1,22 @@
+html(lang="en")
+    head
+        title Chat
+        meta(charset="utf-8")
+        link(rel="stylesheet", href="/assets/styles/style.css")
+    body
+    nav.navigation
+        ul.navigation_list
+            li.navigation_item
+                a.navigation_link(href="public/assets/about/") About
+                a.navigation_link(href="public/assets/averages") Averages
+                a.navigation_link(href="https://github.com/Droid85/node_server_site") GitHub Repository
+    main.main
+        article.chat
+            h1.chat_title #{title}
+            section#chatSection.chat_input-message
+                textarea#textMessage.chat_input-text(name="message", cols="30", rows="5", placeholder="Enter your name")
+                input#inputMessage.chat_input-name(type="text" placeholder="Enter your name")
+                button#chatBtn.chat_send-btn Send
+            section.chat_history-list
+            h2 Chat history
+                        

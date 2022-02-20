@@ -18,12 +18,13 @@
     <main class="main">
         <article class="chat">
             <h1 class="chat_title">Messages page</h1>
-            <section class="chat_input-message">
+            <section id="chatSection" class="chat_input-message">
                 <textarea name="message" id="textMessage" class="chat_input-text" cols="30" rows="5" placeholder="Enter your message"></textarea>
                 <input type="text" id="inputMessage" class="chat_input-name" placeholder="Enter your name">
                 <button id="chatBtn" class="chat_send-btn">Send</button>
             </section>
             <section class="chat_history">
+                <h2>Chat history</h2>
                 <ul id="chatList" class="chat_history-list">
                     <li class="chat-history-item">%</li>
                 </ul>
