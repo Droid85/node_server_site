@@ -1,0 +1,29 @@
+.main_article {
+    padding: 15px;
+}
+
+.root_input {
+    border-radius: 5px;
+    height: 30px;
+    border: 1px solid rgb(156, 156, 156);
+}
+
+.root_button {
+    cursor: pointer;
+    height: 30px;
+    width: 50px;
+    background-color: rgb(0, 255, 21);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 5px;
+}
+
+.table {
+    width: 100%;
+}
+
+.tabcell {
+    width: 33%;
+    padding: 15px;
+}
