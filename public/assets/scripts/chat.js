@@ -34,13 +34,15 @@ for (let i = 0; i < chatInfo.length; i++) {
 }
 
 function onClickBtn(e) {
-    const curentMas = {
+    if (inputEl.value && textEl.value) {
+        const curentMas = {
         name: inputEl.value,
         msg: textEl.value,
         data: new Date().toLocaleDateString('en-US')
+        }
+        chatInfo.push(curentMas)
+        renderMsgs(curentMas)
     }
-    chatInfo.push(curentMas)
-    renderMsgs(curentMas)
     clearForm(textEl, inputEl);
 }
 
