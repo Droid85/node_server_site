@@ -3,6 +3,7 @@ html(lang="en")
         title Chat
         meta(charset="utf-8")
         link(rel="stylesheet", href="/assets/styles/style.css")
+        link(rel="stylesheet", href="/assets/styles/chat.css")
     body
     nav.navigation
         ul.navigation_list
@@ -19,4 +20,5 @@ html(lang="en")
                 button#chatBtn.chat_send-btn Send
             section.chat_history-list
             h2 Chat history
-                        
+            div#chatMsgs.chat-block
+    script(src="/assets/scripts/chat.js")
